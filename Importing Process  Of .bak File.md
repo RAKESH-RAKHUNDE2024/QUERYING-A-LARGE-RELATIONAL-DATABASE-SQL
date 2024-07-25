@@ -19,26 +19,26 @@
 ## 5) Initiate Restore:-
 Right-click On The Databases Node And Choose Restore Database.
 
-![](DATASET/InitiateRestore.png)
+![](TEMPLATES/InitiateRestore.png)
 
 ## 6) Specify Source And Destination:-
 - In The Restore Database Window, Select The Device Option.
 - Click The Ellipsis (...) Button Next To The Device Field To Open The Select Backup Devices Dialog.
 
-![](DATASET/SpecifySourceandDestination.png)
+![](TEMPLATES/SpecifySourceandDestination.png)
 
 ## 7) Add Backup File:-
 - Click Add In The Select Backup Devices Dialog.
 - Navigate To And Select Your .bak File.
 - Click Ok To Close The Select Backup Devices Dialog.
 
-![](DATASET/AddBackupFile-1.png)
+![](TEMPLATES/AddBackupFile-1.png)
 
 
-![](DATASET/AddBackupFile-2.png)
+![](TEMPLATES/AddBackupFile-2.png)
 
 
-![](DATASET/AddBackupFile-3.png)
+![](TEMPLATES/AddBackupFile-3.png)
 
 ## 8) Specify Destination Database:-
 - In The Restore Database Window, Under The Destination Section, Specify The Database Name For The Restored Database. You Can Change This If You Want To Restore With A Different Name.
@@ -49,7 +49,7 @@ Right-click On The Databases Node And Choose Restore Database.
 ## 10) Initiate Restore:-
 - Click Ok To Start The Restore Process.
 
-![](DATASET/InitiateRestore-2.png)
+![](TEMPLATES/InitiateRestore-2.png)
 
 ## 11) Monitor Progress:-
 - SSMS Will Display The Progress Of The Restore Operation. Depending On The Size Of The .bak File And The Server Performance, This May Take Some Time.
@@ -57,7 +57,7 @@ Right-click On The Databases Node And Choose Restore Database.
 ## 12) Completion:-
 - Once The Restore Is Complete, You Should See A Confirmation Message Indicating Success.
 
-![](DATASET/Completion.png)
+![](TEMPLATES/Completion.png)
 
 ## Summary Of Project:-
 To Summarize The Project:-
