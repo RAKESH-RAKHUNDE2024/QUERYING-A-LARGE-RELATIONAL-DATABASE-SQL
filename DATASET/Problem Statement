@@ -1,0 +1,57 @@
+
+# PROBLEM STATEMENT:-
+How To Get Details About Customers By Querying A Database?   
+                                       
+## TOPICS:-
+
+In This Project, You Will Work On Downloading A Database And Restoring It On The
+Server. You Will Then Query The Database To Get Customer Details Like Name, Phone
+Number, Email Id, Sales Made In A Particular Month, Increase In Month-on-month
+Sales And Even The Total Sales Made To A Particular Customer.
+
+## HIGHLIGHTS:-
+
+Table Basics And Data Types
+Various Sql Operators
+Various Sql Functions
+ 
+## TASKS TO BE PERFORMED:-
+
+1) DOWNLOAD THE ADVENTUREWORKS DATABASE FROM THE FOLLOWING LOCATION AND RESTORE IT IN YOUR SERVER:-
+ 
+## LOCATION:-
+
+https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks
+
+FILE NAME:- AdventureWorks2012.bak
+
+Adventureworks Is A Sample Database Shipped With Sql Server And It Can
+Be Downloaded From The Github Site. Adventureworks Has Replaced
+Northwind And Pubs Sample Databases That Were Available In Sql Server
+In 2005. Microsoft Keeps Updating The Sample Database As It Releases New Versions.
+
+2) RESTORE BACKUP:-
+
+Follow The Below Steps To Restore A Backup Of Your Database Using SQL Server Management Studio:-
+
+A) Open SQL Server Management Studio And Connect To The Target SQL Server Instance
+B) Right-click On The Databases Node And Select Restore Database
+C) Select Device And Click On The Ellipsis (...)
+D) In The Dialog Box, Select Backup Devices, Click On Add, Navigate To
+ The Database Backup In The File System Of The Server, Select The Backup, And Click On Ok.
+E)  If Needed, Change The Target Location For The Data And Log Files In The Files Pane
+ 
+# Note: It Is A Best Practice To Place The Data And Log Files On Different Drives.
+
+F) Now, Click On Ok
+ 
+This Will Initiate The Database Restore. After It Completes, You Will Have The
+Adventureworks Database Installed On Your Sql Server Instance.
+
+3) Perform The Following With Help Of The Above Database:
+A) Get All The Details From The Person Table Including Email Id, Phone Number And Phone Number Type
+B) Get The Details Of The Sales Header Order Made In May 2011
+C) Get The Details Of The Sales Details Order Made In The Month Of May 2011
+D) Get The Total Sales Made In May 2011
+E) Get The Total Sales Made In The Year 2011 By Month Order By Increasing Sales
+F) Get The Total Sales Made To The Customer With Firstname='gustavo' And Lastname ='achong'
