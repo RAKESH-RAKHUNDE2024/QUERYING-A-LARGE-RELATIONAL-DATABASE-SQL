@@ -12,8 +12,8 @@ Sales And Even The Total Sales Made To A Particular Customer.
 ## HIGHLIGHTS:-
 
 Table Basics And Data Types
-Various Sql Operators
-Various Sql Functions
+Various SQL Operators
+Various SQL Functions
  
 ## TASKS TO BE PERFORMED:-
 
@@ -25,9 +25,9 @@ https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks
 
 FILE NAME:- AdventureWorks2012.bak
 
-Adventureworks Is A Sample Database Shipped With Sql Server And It Can
-Be Downloaded From The Github Site. Adventureworks Has Replaced
-Northwind And Pubs Sample Databases That Were Available In Sql Server
+AdventureWorks Is A Sample Database Shipped With SQL Server And It Can
+Be Downloaded From The Github Site. AdventureWorks Has Replaced
+Northwind And Pubs Sample Databases That Were Available In SQL Server
 In 2005. Microsoft Keeps Updating The Sample Database As It Releases New Versions.
 
 2) RESTORE BACKUP:-
@@ -46,7 +46,7 @@ E)  If Needed, Change The Target Location For The Data And Log Files In The File
 F) Now, Click On Ok
  
 This Will Initiate The Database Restore. After It Completes, You Will Have The
-Adventureworks Database Installed On Your Sql Server Instance.
+AdventureWorks Database Installed On Your SQL Server Instance.
 
 3) Perform The Following With Help Of The Above Database:
 A) Get All The Details From The Person Table Including Email Id, Phone Number And Phone Number Type
